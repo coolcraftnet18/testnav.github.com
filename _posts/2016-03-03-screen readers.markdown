@@ -14,7 +14,7 @@ Here is how we normally structure our content
 <label class="radio">
 	<div class="int-choice-control"><input type="radio" name="group_RESPONSE2" value="ChoiceB"/></div>
 	<div class="int-choice-label">B</div>
-	<div class="int-choice-desc"><span><img src="http://test86-tn8.pearsontestcontent.com/refqc/6f31fd123f608529c7c98b00e1dfc377846179cc/360/17213/bluebox.png" alt="blue box" width="88" height="100"></span></div>
+	<div class="int-choice-desc"><span><img src="bluebox.png" alt="blue box" width="88" height="100"></span></div>
 </label>
 
 {% endhighlight %}
@@ -28,7 +28,7 @@ Better:
 <label for=ChoiceB class="radio">
 	<div class="int-choice-control"><input type="radio" name="group_RESPONSE2" value="ChoiceB"/></div>
 	<div class="int-choice-label">B</div>
-	<div class="int-choice-desc"><span><img src="http://test86-tn8.pearsontestcontent.com/refqc/6f31fd123f608529c7c98b00e1dfc377846179cc/360/17213/bluebox.png" alt="blue box" width="88" height="100"></span></div>
+	<div class="int-choice-desc"><span><img src="bluebox.png" alt="blue box" width="88" height="100"></span></div>
 </label>
 {% endhighlight %}
 
@@ -46,7 +46,7 @@ Even Better, but notice level 0 is read JAWS.
 <div class="int-choice-label">A</div>
 <div class="int-choice-desc">
     <span>
-        <img src="http://test86-tn8.pearsontestcontent.com/refqc/6f31fd123f608529c7c98b00e1dfc377846179cc/360/17213/bluebox.png" alt="blue box" width="88" height="100">
+        <img src="bluebox.png" alt="blue box" width="88" height="100">
     </span>
 </div>
 </label>
