@@ -9,7 +9,7 @@ author:	"James Setaro"
 Chrome has interesting issues right now with JAWS and NVDA.  Here are a couple of observations. We have really been pushing to offer better support for our Chrome screen reader and AT users.
 
 
-Here is how we normally structure our content
+Here is how we normally structure our content, which doesn't read the alt text on the images, at all. Which is obviously a big big problem.
 {% highlight html %}
 <label class="radio">
 	<div class="int-choice-control"><input type="radio" name="group_RESPONSE2" value="ChoiceB"/></div>
