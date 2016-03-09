@@ -20,7 +20,7 @@ Here is how we normally structure our content, which doesn't read the alt text o
 {% endhighlight %}
 
 
-Better:
+If we restructure the markup we get a better result:
 
 {% highlight html %}
     <!--Chrome/NVDA Reads radio button not checked B, then B again, then blue box-->
